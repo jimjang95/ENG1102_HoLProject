@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-S''
+VD:\u005c_School\u005cFall 2018\u005cENG 1102\u005cTwineBackup\u005cHelper.html
 p2
 sS'saveDestination'
 p3
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-V[[This is not for you.|Arrival]]\u000a\u000a<<silently>>\u000a$sanity = 1000\u000a\u000a<<endsilently>>\u000a
+VJinu's Demo Version!\u000aHopefully with this we can now get some concrete ideas on what this project will look like.\u000aThis is based off Exploration #1, and it is short but do try everything.\u000a\u000aAlso check out both left and right rooms from the corridor cuz i just randomly put some Twine functionality stuff in there.\u000aAlso make sure to go to the end of the corridor.\u000a\u000a[[This is completely for you.|Arrival]]\u000a\u000a<<silently>>\u000a$sanity = 1000\u000a\u000a<<endsilently>>\u000a
 p22
 sS'title'
 p23
@@ -51,9 +51,9 @@ p26
 ((I2018
 I10
 I14
-I15
-I18
-I48
+I16
+I44
+I59
 I6
 I287
 I0
@@ -447,7 +447,7 @@ Tiddler
 p147
 (dp148
 g21
-V<<if $curLocation is 0>>\u000aTemperature = 15°C / 59°F\u000a[[Put down display|]]\u000a<<endif>>\u000a\u000a<<if $curLocation is 3>>\u000aTemperature = 15°C / 59°F\u000a\u000a"An echo only happens when smthsmth 56 1/2 feet smth smth"\u000a[[Put down display|largeHall]]\u000a<<endif>>
+VTemperature = 15°C / 59°F\u000a\u000a"An echo only happens when smthsmth 56 1/2 feet smth smth"\u000a[[Put down display|largeHall]]
 p149
 sg23
 VHUD
@@ -458,8 +458,8 @@ g26
 I10
 I14
 I16
-I12
-I5
+I38
+I21
 I6
 I287
 I0
@@ -530,15 +530,15 @@ g14
 I00
 sg15
 (lp174
-F554.0
-aF1019.0
+F486.0
+aF917.0
 asg17
 (itiddlywiki
 Tiddler
 p175
 (dp176
 g21
-V<<silently>>\u000a<<set $curLocation to 3>>\u000a<<set $sanity to $sanity - 150>>\u000a<<display "macroDisplay">>\u000a<<singleDisp>>\u000a<<endsilently>>\u000a\u000aAn impossible darkness spans out in all directions.\u000aYour voice echoes.\u000a<<if $sanity <= 700>>\u000aYou hear a growl in the distance\u000a<<endif>>\u000a[[See display|HUD]] 
+V<<silently>>\u000a<<set $curLocation to 3>>\u000a<<set $sanity to $sanity - 150>>\u000a<<endsilently>>\u000a\u000aAn impossible darkness spans out in all directions.\u000aYour voice echoes.\u000a<<if $sanity <= 700>>\u000aYou hear a growl in the distance\u000a<<endif>>\u000a[[See display|HUD]] 
 p177
 sg23
 VlargeHall
@@ -549,8 +549,8 @@ g26
 I10
 I14
 I16
-I6
-I17
+I38
+I47
 I6
 I287
 I0
@@ -583,7 +583,7 @@ I00
 sg15
 (lp190
 F487.0
-aF637.0
+aF635.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1064,7 +1064,7 @@ Tiddler
 p337
 (dp338
 g21
-Vbody {\u000a	color: #000 !important;\u000a	background-color: #000 !important;\u000a}\u000a\u000a.passage {\u000a	position: absolute;\u000a	top: 90%;\u000a	left: 70%;\u000a	min-width: 300px;\u000a	font-size: 0.1em;\u000a	color: #FFFFFF;\u000a	padding-left: 50px;\u000a	padding-right: 0px;\u000a	padding-top: 50px;\u000a	padding-bottom: 50px;\u000a	background-image: [img[smalldarkroom]];\u000a	background-repeat: no-repeat;\u000a	background-position: right;\u000a}
+Vbody {\u000a	color: #000 !important;\u000a	background-color: #000 !important;\u000a}\u000a\u000a.passage {\u000a	position: absolute;\u000a	top: 90%;\u000a	left: 70%;\u000a	min-width: 300px;\u000a	font-size: 0.1em;\u000a	color: #FFFFFF;\u000a	padding-left: 50px;\u000a	padding-right: 0px;\u000a	padding-top: 50px;\u000a	padding-bottom: 50px;\u000a	background-image: [img[smalldarkroom]];\u000a	background-repeat: no-repeat;\u000a	background-position: right;\u000a}\u000a\u000aa.internalLink,a.externalLink,a.back,a.return{\u000a	color: #FFFFFF;\u000a\u000a}
 p339
 sg23
 VbigEmptyRoom
@@ -1074,9 +1074,9 @@ g26
 ((I2018
 I10
 I14
-I13
-I23
-I46
+I16
+I39
+I59
 I6
 I287
 I0
@@ -1306,27 +1306,27 @@ g14
 I00
 sg15
 (lp413
-I1176
-aI465
+I659
+aI486
 asg17
 (itiddlywiki
 Tiddler
 p414
 (dp415
 g21
-VYou see <<replace "a half-eaten cake">>a plate of crumbs<<endreplace>>\u000aYou see <<replace "ten dollars">>five dollars<<becomes>>two dollars<<becomes>>fifty cents<<endreplace>>\u000aYou see <<replace>>a //big// boulder!<<becomes>>some pebbles.<<endreplace>>\u000aI find it <<insert "repugnant">>that he's made such comments<<endinsert>>.\u000aYou go outside. <<continue "Next.">>The sun blinds you momentarily.<<continue "Next.">>Has it been so long?
+V<<silently>>\u000a<<display "macroDisplay">>\u000a<<origDisp>>\u000a<<endsilently>>\u000a\u000aThe right door led to a demo!!!\u000a\u000a\u000aYou see <<replace "a half-eaten cake">>a plate of crumbs<<endreplace>>\u000aYou see <<replace "ten dollars">>five dollars<<becomes>>two dollars<<becomes>>fifty cents<<endreplace>>\u000aYou see <<replace>>a //big// boulder!<<becomes>>some pebbles.<<endreplace>>\u000aI find it <<insert "repugnant">>that he's made such comments<<endinsert>>.\u000aYou go outside. <<continue "Next.">>The sun blinds you momentarily.<<continue "Next.">>Has it been so long?\u000a\u000a\u000a<<back>>
 p416
 sg23
-VUntitled Passage 1
+Vright
 p417
 sg25
 g26
 ((I2018
 I10
 I14
-I14
-I0
-I34
+I16
+I33
+I37
 I6
 I287
 I0
@@ -1410,8 +1410,8 @@ g14
 I00
 sg15
 (lp445
-I1176
-aI287
+I656
+aI341
 asg17
 (itiddlywiki
 Tiddler
@@ -1563,21 +1563,21 @@ tp490
 Rp491
 sbsa(dp492
 g14
-I01
+I00
 sg15
 (lp493
-F639.0
-aF488.0
+F487.0
+aF487.0
 asg17
 (itiddlywiki
 Tiddler
 p494
 (dp495
 g21
-VThe right door lead to an unimplemented spot!!!\u000a\u000a<<back>>
+VTada you realize the left door leads to a blank space which hasn't been implemented!\u000a\u000aYou can play around with <<hoverreplace>>//__this__//<<becomes>>that<<endhoverreplace>>\u000a\u000a<<timedreplace 10s>> Also you can wait for 10 seconds and see this change. <<becomes>> Yup it changed. You can now go to [[right]] <<endtimedreplace>>\u000a\u000a<<back>>
 p496
 sg23
-Vright
+Vleft
 p497
 sg25
 g26
@@ -1585,8 +1585,8 @@ g26
 I10
 I14
 I16
-I24
-I3
+I46
+I51
 I6
 I287
 I0
@@ -1611,60 +1611,10 @@ tp503
 (dp504
 tp505
 Rp506
-sbsa(dp507
-g14
-I00
-sg15
-(lp508
-F487.0
-aF487.0
-asg17
-(itiddlywiki
-Tiddler
-p509
-(dp510
-g21
-VTada you realize the left door leads to a blank space which hasn't been implemented!\u000a\u000a<<back>>
-p511
-sg23
-Vleft
-p512
-sg25
-g26
-((I2018
-I10
-I14
-I16
-I23
-I58
-I6
-I287
-I0
-tp513
-(dp514
-tp515
-Rp516
-sg31
-(lp517
-sg33
-g26
-((I2018
-I10
-I14
-I16
-I12
-I26
-I6
-I287
-I0
-tp518
-(dp519
-tp520
-Rp521
 sbsasS'scale'
-p522
+p507
 I1
 sS'snapping'
-p523
+p508
 I00
 ss.
